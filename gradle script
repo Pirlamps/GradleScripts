@@ -7,7 +7,7 @@
         versionProps['VERSION_BUILD'] = versionBuild.toString()
         versionProps.store(versionPropsFile.newWriter(), null)
         defaultConfig {
-            applicationId "xds.com.gradlescriptteste"
+            applicationId "br.com.gradlescriptteste"
             minSdkVersion 16
             targetSdkVersion 23
             versionCode 1 + versionBuild
@@ -15,7 +15,7 @@
         }
     }else{
         defaultConfig {
-            applicationId "xds.com.gradlescriptteste"
+            applicationId "br.com.gradlescriptteste"
             minSdkVersion 16
             targetSdkVersion 23
             versionCode 1
